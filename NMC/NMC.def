@@ -1,0 +1,27 @@
+LIBRARY "NMC"
+EXPORTS
+HardwareOpen @1
+HardwareClose @2
+HardwareIsOpen @3
+HardwareGoZero @4
+HardwareGo @5
+HardwareBGo @6
+HardwareGoThree @7
+HardwareGoPlanar @8
+HardwareBGoPlanar @9
+HardwareGetCurPos @10
+HardwareCurVeloc @11
+HardwareIsComplete @12
+HardwareWaitComplete @13
+HardwareEHalt @14
+HardwareSigStart2Hardware @15
+HardwareSigStop2Hardware @16
+HardwareEKill @17
+HardwareEStop @18
+HardwareContinue @19
+HardwareReset @20
+HardwareChklimit @21
+OpenDriver @22
+SendData @23
+ReceiveData @24
+ClosePort @25
